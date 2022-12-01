@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App header{
+  margin-top: 30px;
+  width: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookmark{
+  justify-content: center;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  background-color: rgb(77, 73, 73);
+  color: white;
+  align-items: center;
+}
+.bookmark:hover{
+  background-color: rgb(117, 105, 105);
+}
+.search{
+  margin-top: 20px;
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search input{
+  width: 80%;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  padding-inline-start: 15px;
+  font-size: 18px;
+}
+.search button{
+  width: 15%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.search button:hover{
+  background-color: rgb(54, 53, 53);
+}
+.images{
+  margin-top: 20px;
+  width: max-content;
+  display: flex;
+  gap: 8px;
+}
+.images img{
+  height: max-content;
+  width: max-content;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card{
+  position: relative;
+}
+.collect{
+  height: 25px;
+  width: 25px;
+  background-color: rgb(236, 236, 222);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  display: none;
+}
+.collect p{
+  margin-top: -2.5px;
+}
+.card:hover .collect{
+  display: flex;
+}
+.cllectno{
+  display: none;
+}
+.cllectno p{
+  display: none;
+}
